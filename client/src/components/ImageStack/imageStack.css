@@ -1,0 +1,25 @@
+.stack {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 12rem; 
+    margin: 10rem auto;
+  }
+  
+  .stack > img {
+    width: 12rem; 
+    height: 20rem; 
+    object-fit: cover; 
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3); 
+    transition: transform 300ms, box-shadow 300ms; 
+    margin: 0 0.5rem; 
+  }
+  
+  .stack > img:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.4); 
+  }
+  
+  

@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/navigation';
-import Home from './components/Home/home';
+import Home from './pages/Home/home';
+import About from './pages/About/about';
 import Footer from './components/Footer/footer';
 import './App.css';
 
@@ -14,7 +15,7 @@ function App() {
         <div className='content'>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* Add more routes here */}
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
         <Footer />
