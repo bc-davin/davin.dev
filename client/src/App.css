@@ -2,7 +2,7 @@ html, body {
   overflow: hidden;
 }
 .content {
-  background-color: black;
+  background-color: lightgray;
   flex: 1;
   margin-top: 100px;
   padding: 20px;
