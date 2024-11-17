@@ -124,14 +124,14 @@ h1 {
         position: absolute;
         top: 100%;
         left: 0;
-        background-color: white; /* Adjust as needed */
+        background-color: white; 
         z-index: 1;
     }
     .navigation.open {
         display: block;
     }
     .navigation ul {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         width: 100%;
         margin: 0;
@@ -142,14 +142,16 @@ h1 {
         width: 100%;
         text-align: left;
         padding: 10px 20px;
+        font-family: 'Roboto', sans-serif;
     }
     .containerButton {
-        width: 100%;
-        margin: 10px 0;
+        width: 80%;
+        margin: 10px auto;
     }
     .resumeButton {
         width: 100%;
         justify-content: center;
+        margin: 0 auto;
     }
     .title {
         margin-left: 0;
