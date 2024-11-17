@@ -1,5 +1,6 @@
-import Navigation  from './ components/navigation'
-
+import Navigation  from './ components/Navigation/navigation'
+import Home from './ components/Home/home';
+import './App.css';
 function App() {
   return (
     <div id='root'>
@@ -7,8 +8,7 @@ function App() {
         <Navigation />
       </div>
       <div className='content'>
-        {/* Your content goes here */}
-        <p>Your content here...</p>
+        <Home />
       </div>
     </div>
   );

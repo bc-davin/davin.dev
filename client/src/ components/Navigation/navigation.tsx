@@ -9,8 +9,7 @@ const Navigation: React.FC = () => {
             </div>
             <nav className ="navigation">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
+                    <li>About Me</li>
                     <li>Projects</li>
                     <li>Contact</li>
                 </ul>

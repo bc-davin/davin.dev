@@ -1,0 +1,41 @@
+.homeContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.containerLeft {
+    flex: 1;
+    padding: 20px;
+}
+
+.containerLeft h1 {
+    font-size: 2.5em;
+}
+
+.containerLeft .contentInfo{
+    margin-top: 20px;
+}
+
+.containerLeft .contentInfo p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+
+.containerRight {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerRight img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
