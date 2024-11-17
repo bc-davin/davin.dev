@@ -144,6 +144,9 @@ h1 {
         padding: 10px 20px;
         font-family: 'Roboto', sans-serif;
     }
+    .navigation a {
+        font-size: x-small;
+    }
     .containerButton {
         width: 80%;
         margin: 10px auto;
