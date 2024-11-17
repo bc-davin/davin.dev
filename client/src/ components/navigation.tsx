@@ -15,7 +15,10 @@ const Navigation: React.FC = () => {
                     <li>Contact</li>
                 </ul>
             </nav>
+            <div className='containerButton'>
             <button className='resumeButton'>Resume</button>
+            </div>
+           
         </div>
     );
 };

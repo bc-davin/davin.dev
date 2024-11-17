@@ -1,16 +1,17 @@
-
 import Navigation  from './ components/navigation'
-import './app.css';
 
 function App() {
- 
   return (
     <div id='root'>
       <div className='top'>
         <Navigation />
       </div>
+      <div className='content'>
+        {/* Your content goes here */}
+        <p>Your content here...</p>
+      </div>
     </div>
-  )
+  );
 }
 
 export default App
