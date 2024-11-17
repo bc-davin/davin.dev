@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './components/Navigation/navigation';
 import Home from './components/Home/home';
+import Footer from './components/Footer/footer';
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             {/* Add more routes here */}
           </Routes>
         </div>
+        <Footer />
       </div>
     </Router>
   );
