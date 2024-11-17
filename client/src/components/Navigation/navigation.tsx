@@ -10,7 +10,7 @@ const Navigation: React.FC = () => {
     };
 
     const openResume = () => {
-        window.open('/path-to-resume.pdf', '_blank');
+        window.location.href = 'https://drive.google.com/file/d/1bdt8e-NM0Hq3rgQem2pS-arM2RTJWqOa/view';
     };
 
     return (
@@ -23,10 +23,10 @@ const Navigation: React.FC = () => {
                 </button>
                 <nav className={`navigation ${menuOpen ? 'open' : ''}`} aria-label="Main Navigation">
                     <ul>
-                        <li><NavLink end to="/" className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink></li>
-                        <li><NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""}>About Me</NavLink></li>
-                        <li><NavLink to="/projects" className={({ isActive }) => isActive ? "active" : ""}>Projects</NavLink></li>
-                        <li><NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink></li>
+                        <li><NavLink end to="/" className={({ isActive }) => isActive ? "active" : ""} onClick={() => setMenuOpen(false)}>Home</NavLink></li>
+                        <li><NavLink to="/about" className={({ isActive }) => isActive ? "active" : ""} onClick={() => setMenuOpen(false)}>About Me</NavLink></li>
+                        <li><NavLink to="/projects" className={({ isActive }) => isActive ? "active" : ""} onClick={() => setMenuOpen(false)}>Projects</NavLink></li>
+                        <li><NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""} onClick={() => setMenuOpen(false)}>Contact</NavLink></li>
                     </ul>
                     <div className="containerButton">
                     <button className="resumeButton" onClick={openResume} aria-label="View Resume">
