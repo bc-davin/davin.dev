@@ -10,7 +10,7 @@ const Navigation: React.FC = () => {
     };
 
     const openResume = () => {
-        window.location.href = 'https://drive.google.com/file/d/1bdt8e-NM0Hq3rgQem2pS-arM2RTJWqOa/view';
+        window.location.href = 'https://drive.google.com/file/d/1bANpF1gSPkiv47Lp2ieq6RNuTXWkRaeJ/view?usp=sharing';
     };
 
     return (
